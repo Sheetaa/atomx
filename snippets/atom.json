@@ -1,0 +1,27 @@
+{
+    "Atom Template": {
+        "prefix": "template",
+        "body": [
+            "<template>",
+            "\t$1",
+            "</template>\n",
+            "<style lang=\"less\" scoped>",
+            "\t$2",
+            "</style>\n",
+            "<script type=\"config\">",
+            "{",
+            "\tprops: [$4],",
+            "\tdata: {$5},",
+            "\tcomponents: {$6}",
+            "}",
+            "</script>\n",
+            "<script>",
+            "export default {",
+            "\tmethods: {$7},",
+            "\tmounted: function () {}",
+            "};",
+            "</script>\n"
+        ],
+        "description": "Atom Template"
+    }
+}
