@@ -1,10 +1,10 @@
 # Atomx
 
-[Atom(not the editor)](https://www.npmjs.com/package/vip-server-renderer) tools for VSCode.
+[Atom](https://www.npmjs.com/package/vip-server-renderer)(not the editor) tools for VSCode.
 
 ## Features
 - Snippets
 - Syntax-highlighting
 
 ## Quick Start
-Search `Atomx` in VSCode extension marketplace and install it.
+Install [Atomx](https://marketplace.visualstudio.com/items?itemName=johnnyyao.atomx)
