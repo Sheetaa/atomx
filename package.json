@@ -2,7 +2,7 @@
     "name": "atomx",
     "displayName": "Atomx",
     "description": "Atom tools for VSCode",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "johnnyyao",
     "engines": {
         "vscode": "^1.14.0"

@@ -12,6 +12,7 @@ Install [Atomx](https://marketplace.visualstudio.com/items?itemName=johnnyyao.at
 ## Usage
 1. create a file named `xxx.atom`;
 2. write word `template` and type `Tab`. Then, there's template code below:
+
 ```vue
 <template>
     
