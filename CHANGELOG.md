@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to the "atomx" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.0.4] - 2017-09-06
 
-## [Unreleased]
+### Added
+- Add icon for atomx.
+
+### Changed
+- remove tab action after first tab click.
