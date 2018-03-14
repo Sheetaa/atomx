@@ -1,27 +1,107 @@
 {
-    "Atom Template": {
-        "prefix": "template",
+    "Atom Template - 1": {
+        "prefix": "atom",
         "body": [
             "<template>",
-            "\t$1",
+            "    $0",
             "</template>\n",
-            "<style lang=\"less\" scoped>",
-            "\t",
-            "</style>\n",
             "<script type=\"config\">",
             "{",
-            "\tprops: [],",
-            "\tdata: {},",
-            "\tcomponents: {}",
+            "    props: {},",
+            "    data: {},",
+            "    components: {}",
             "}",
             "</script>\n",
             "<script>",
             "export default {",
-            "\tmethods: {},",
-            "\tmounted: function () {}",
+            "    mounted() {},",
+            "    methods: {}",
             "};",
-            "</script>\n"
+            "</script>\n",
+            "<style lang=\"less\" scoped>",
+            "    ",
+            "</style>\n"
         ],
-        "description": "Atom Template"
+        "description": "Atom Template - 1"
+    },
+    "Atom Template - 2": {
+        "prefix": "template",
+        "body": [
+            "<template>",
+            "    $0",
+            "</template>\n",
+            "<script type=\"config\">",
+            "{",
+            "    props: {},",
+            "    data: {},",
+            "    components: {}",
+            "}",
+            "</script>\n",
+            "<script>",
+            "export default {",
+            "    mounted() {},",
+            "    methods: {}",
+            "};",
+            "</script>\n",
+            "<style lang=\"less\" scoped>",
+            "    ",
+            "</style>\n"
+        ],
+        "description": "Atom Template - 2"
+    },
+    "Atom block - template": {
+        "prefix": "atom:template",
+        "body": [
+            "<template>",
+            "    $0",
+            "</template>"
+        ],
+        "description": "Atom block - template"
+    },
+    "Atom block - config": {
+        "prefix": "atom:config",
+        "body": [
+            "<script type=\"config\">",
+            "{",
+            "    props: {$1},",
+            "    data: {$2},",
+            "    components: {$3}",
+            "}",
+            "</script>"
+        ],
+        "description": "Atom block - config"
+    },
+    "Atom block - php": {
+        "prefix": "atom:php",
+        "body": [
+            "<script type=\"php\">",
+            "    function render(\\$ctx) {",
+            "        $0",
+            "        return parent::render(\\$ctx);",
+            "    }",
+            "</script>"
+        ],
+        "description": "Atom block - php"
+    },
+    "Atom block - js": {
+        "prefix": "atom:js",
+        "body": [
+            "<script>",
+            "export default {",
+            "    mounted() {$1},",
+            "    methods: {$2}",
+            "};",
+            "</script>"
+        ],
+        "description": "Atom block - js"
+    },
+    "Atom block - style": {
+        "prefix": "atom:style",
+        "body": [
+            "<style lang=\"less\" scoped>",
+            "    $0",
+            "</style>"
+        ],
+        "description": "Atom block - style"
     }
 }
